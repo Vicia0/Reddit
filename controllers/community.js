@@ -2,7 +2,6 @@ const community = require("../models/communities/crudCommunity");
 
 
 
-
 const createCommunity = async (req,res)=> {
     try {
         const {name,member} = req.body;

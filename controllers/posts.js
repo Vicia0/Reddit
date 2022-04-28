@@ -26,7 +26,6 @@ const viewSinglePost = async (req,res) => {
         throw new Error(error);
     }
 }
-
 const createPosts = async (req,res) => {
     try {
         const {creator,title,content,votes,comments} = req.body;

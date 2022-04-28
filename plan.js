@@ -81,7 +81,7 @@ try {
 how to implement the vote feature?
 what if there is a votes collection for each post.
 and each time, a use votes, a vote is added to the collection, and the copied to the post.
-
+ 
 find the vote creator, if the vote creator is the voter, delete the document in the vote collection and in post collection votes array., and add the current vote
 link the current vote to the post by pushing it in the array.
 

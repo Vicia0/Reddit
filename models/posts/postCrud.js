@@ -23,7 +23,7 @@ class postCrud {
     async createPost(creator,title,content,votes,comments) {
 // moved to front end.
 
-        
+
     }
     async updatePost(id,title,content,votes,comments) {
         try {
