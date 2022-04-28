@@ -20,11 +20,10 @@ router.get('/community/read', readCommunity);
 router.put('/community/join',joinCommunity);
 
 // authentication routes
-// authentication routes
 router.post('/auth/signup', signup_post);
 
 router.post('/auth/login', login_post);
 
-router.post('/auth/changePassword',update_password); // front end not yet implemented
+router.post('/auth/changePassword',update_password);
 
 module.exports = router;
