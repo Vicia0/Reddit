@@ -1,0 +1,22 @@
+export const swaggeroptions = {
+  definitions: {
+    openapi: "3.0.0",
+    info: {
+      title: "vicia0"
+      version: "1.0.0",
+      description: "Doc",
+  },
+  servers: [
+  {
+  url: process.env.BASE_URL || "http://localhost:3000",
+  name: "SERVER"
+  },
+  {
+  url: "https://protected-beach-08019.herokuapp.com/"
+  name: "herokuapp"
+  },
+],
+},
+apis: ["routes/*.js"],
+},
+ 
